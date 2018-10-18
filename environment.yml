@@ -1,0 +1,16 @@
+name: em-casing-environment
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - scipy
+  - matplotlib
+  - ipywidgets
+  - mkl
+  - pip:
+    - pymatsolver
+    - geoana
+    - SimPEG
+    - git+https://github.com/simpeg-research/casingSimulations.git
