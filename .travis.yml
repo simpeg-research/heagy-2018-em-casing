@@ -6,7 +6,8 @@ matrix:
   allow_failures:
     - python: "nightly"
 
-sudo: false
+sudo: required
+dist: precise
 
 env:
   matrix:
