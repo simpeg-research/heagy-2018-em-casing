@@ -1,6 +1,8 @@
 import casingSimulations
 import dask
-from dask import
+# import subprocess
+
+# subprocess.Popen(['mpirun', '--np', '4', 'dask-mpi'], stdin=subprocess.DEVNULL)
 
 # models to run
 model_names = [

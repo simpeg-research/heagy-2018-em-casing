@@ -1,9 +1,0 @@
-{
-  "type": "Scheduler",
-  "id": "Scheduler-c5c7afb9-66d6-4cb7-b962-6f446759747c",
-  "address": "tcp://142.103.36.207:8786",
-  "services": {
-    "bokeh": 8787
-  },
-  "workers": {}
-}
