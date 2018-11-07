@@ -6,9 +6,6 @@ matrix:
   allow_failures:
     - python: "nightly"
 
-sudo: required
-dist: precise
-
 env:
   matrix:
     - TEST=tests/test_notebooks.py
