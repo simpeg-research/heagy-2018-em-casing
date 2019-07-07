@@ -15,5 +15,3 @@ dependencies:
     - discretize==0.3.8
     - SimPEG==0.10.4
     - git+https://github.com/simpeg-research/casingSimulations.git@0.0.7
-    - git+https://github.com/simpeg/simpeg.git@feat/dc_fields_derivs
-    - git+https://github.com/simpeg-research/casingSimulations.git
