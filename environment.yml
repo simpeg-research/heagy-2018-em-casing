@@ -10,7 +10,8 @@ dependencies:
   - ipywidgets
   - mkl
   - pip:
-    - pymatsolver
-    - geoana
-    - git+https://github.com/simpeg/simpeg.git@feat/dc_fields_derivs
-    - git+https://github.com/simpeg-research/casingSimulations.git
+    - geoana==0.0.5
+    - pymatsolver==0.1.2
+    - discretize==0.4.7
+    - SimPEG==0.11.5
+    - git+https://github.com/simpeg-research/casingSimulations.git@0.0.7
